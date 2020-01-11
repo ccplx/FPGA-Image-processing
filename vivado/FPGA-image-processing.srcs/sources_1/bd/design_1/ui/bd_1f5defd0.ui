@@ -1,0 +1,158 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.8.5  2018-01-30 bk=1.4354 VDI=40 GEI=35 GUI=JA:1.6 non-TLS
+#  -string -flagsOSRD
+preplace port vsync -pg 1 -y 610 -defaultsOSRD
+preplace port vga_hsync -pg 1 -y 510 -defaultsOSRD
+preplace port pwdn -pg 1 -y 1220 -defaultsOSRD
+preplace port resetI2c -pg 1 -y 1200 -defaultsOSRD
+preplace port resend -pg 1 -y 830 -defaultsOSRD
+preplace port xclk -pg 1 -y 1240 -defaultsOSRD
+preplace port sioc -pg 1 -y 1160 -defaultsOSRD
+preplace port siod -pg 1 -y 1180 -defaultsOSRD
+preplace port href -pg 1 -y 630 -defaultsOSRD
+preplace port sys_clock -pg 1 -y 1370 -defaultsOSRD
+preplace port usb_uart -pg 1 -y 1080 -defaultsOSRD
+preplace port pclk -pg 1 -y 590 -defaultsOSRD
+preplace port vga_vsync -pg 1 -y 530 -defaultsOSRD
+preplace port config_finished -pg 1 -y 1140 -defaultsOSRD
+preplace port reset -pg 1 -y 1560 -defaultsOSRD
+preplace port DDR2_0 -pg 1 -y 1600 -defaultsOSRD
+preplace portBus vga_green -pg 1 -y 1440 -defaultsOSRD
+preplace portBus vga_red -pg 1 -y 1540 -defaultsOSRD
+preplace portBus OV7670_D -pg 1 -y 650 -defaultsOSRD
+preplace portBus vga_blue -pg 1 -y 1340 -defaultsOSRD
+preplace portBus sel -pg 1 -y 1540 -defaultsOSRD
+preplace inst image_filter_thresho_0 -pg 1 -lvl 7 -y 640 -defaultsOSRD
+preplace inst v_axi4s_vid_out_0 -pg 1 -lvl 8 -y 600 -defaultsOSRD
+preplace inst image_filter_0 -pg 1 -lvl 7 -y 1270 -defaultsOSRD
+preplace inst xlslice_0 -pg 1 -lvl 9 -y 1540 -defaultsOSRD
+preplace inst v_tc_0 -pg 1 -lvl 7 -y -160 -defaultsOSRD
+preplace inst axi_vdma_0 -pg 1 -lvl 6 -y 890 -defaultsOSRD
+preplace inst image_filter_1 -pg 1 -lvl 7 -y 970 -defaultsOSRD
+preplace inst videoin_0 -pg 1 -lvl 4 -y 620 -defaultsOSRD
+preplace inst xlslice_1 -pg 1 -lvl 9 -y 1340 -defaultsOSRD
+preplace inst Ground -pg 1 -lvl 7 -y 1660 -defaultsOSRD
+preplace inst mig_7series_0 -pg 1 -lvl 8 -y 1750 -defaultsOSRD
+preplace inst xlslice_2 -pg 1 -lvl 9 -y 1440 -defaultsOSRD
+preplace inst axi_smc -pg 1 -lvl 7 -y 1820 -defaultsOSRD
+preplace inst ov7670_controller_0 -pg 1 -lvl 9 -y 1190 -defaultsOSRD
+preplace inst rst_mig_7series_0_81M -pg 1 -lvl 6 -y 1450 -defaultsOSRD
+preplace inst microblaze_0_axi_periph -pg 1 -lvl 5 -y 1080 -defaultsOSRD
+preplace inst util_vector_logic_0 -pg 1 -lvl 1 -y 1310 -defaultsOSRD
+preplace inst mdm_1 -pg 1 -lvl 3 -y 1180 -defaultsOSRD
+preplace inst ila_0 -pg 1 -lvl 3 -y 1550 -defaultsOSRD
+preplace inst v_vid_in_axi4s_0 -pg 1 -lvl 5 -y 740 -defaultsOSRD
+preplace inst ila_1 -pg 1 -lvl 5 -y 460 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 8 -y 1190 -defaultsOSRD
+preplace inst microblaze_0 -pg 1 -lvl 4 -y 1200 -defaultsOSRD
+preplace inst rst_clk_wiz_1_100M -pg 1 -lvl 3 -y 1360 -defaultsOSRD
+preplace inst top_0 -pg 1 -lvl 7 -y 210 -defaultsOSRD
+preplace inst ila_3 -pg 1 -lvl 9 -y 650 -defaultsOSRD
+preplace inst VCC -pg 1 -lvl 4 -y 770 -defaultsOSRD
+preplace inst clk_wiz_1 -pg 1 -lvl 2 -y 1360 -defaultsOSRD
+preplace inst microblaze_0_local_memory -pg 1 -lvl 5 -y 1330 -defaultsOSRD
+preplace netloc mig_7series_0_DDR2 1 8 2 4070J 1600 NJ
+preplace netloc axi_vdma_0_M_AXI_MM2S 1 6 1 2370
+preplace netloc xlslice_2_Dout 1 9 1 NJ
+preplace netloc d_0_1 1 0 5 NJ 650 NJ 650 NJ 650 930 430 N
+preplace netloc image_filter_1_video_out_TVALID 1 6 2 2580 1540 3500
+preplace netloc v_axi4s_vid_out_0_s_axis_video_tready 1 6 2 2600 -290 3630
+preplace netloc top_0_tuser_out 1 7 1 3570
+preplace netloc image_filter_0_video_out_TUSER 1 6 2 2530 1480 3400
+preplace netloc axi_vdma_0_M_AXI_S2MM 1 6 1 2360
+preplace netloc microblaze_0_axi_periph_M01_AXI 1 5 1 1900
+preplace netloc axi_smc_M00_AXI 1 7 1 3610
+preplace netloc image_filter_thresho_0_video_out_TLAST 1 6 2 2510 1940 3510
+preplace netloc image_filter_0_video_out_TDATA 1 6 2 2500 1470 3410
+preplace netloc sys_clock_1 1 0 2 NJ 1370 NJ
+preplace netloc videoin_0_href_out 1 4 1 1530
+preplace netloc v_vid_in_axi4s_0_video_out 1 5 1 1930
+preplace netloc image_filter_thresho_0_video_out_TDATA 1 6 2 2610 1460 3460
+preplace netloc microblaze_0_M_AXI_IC 1 4 3 N 1240 1870J 1350 2320J
+preplace netloc microblaze_0_axi_periph_M00_AXI 1 5 3 1890 1320 2390J 1430 3570J
+preplace netloc microblaze_0_dlmb_1 1 4 1 1510
+preplace netloc videoin_0_dout 1 4 1 1520
+preplace netloc image_filter_1_video_in_TREADY 1 6 1 2630
+preplace netloc microblaze_0_M_AXI_DP 1 4 1 1530
+preplace netloc rst_clk_wiz_1_100M_mb_reset 1 3 1 940
+preplace netloc videoin_0_vsync_out 1 4 1 1490
+preplace netloc mig_7series_0_mmcm_locked 1 5 4 1920 2010 NJ 2010 NJ 2010 3990
+preplace netloc v_tc_0_active_video_out 1 7 2 3620 350 4060
+preplace netloc Ground_dout 1 7 1 3550
+preplace netloc top_0_tdata_out 1 7 1 3610
+preplace netloc v_tc_0_hblank_out 1 7 1 3600
+preplace netloc rst_clk_wiz_1_100M_bus_struct_reset 1 3 2 920 1360 NJ
+preplace netloc image_filter_thresho_0_video_in_TREADY 1 6 1 2640
+preplace netloc image_filter_1_video_out_TUSER 1 6 2 2570 1530 3470
+preplace netloc mig_7series_0_ui_clk_sync_rst 1 5 4 1930 1580 NJ 1580 NJ 1580 3990
+preplace netloc microblaze_0_ilmb_1 1 4 1 1480
+preplace netloc axi_vdma_0_m_axis_mm2s_tdata 1 6 1 2450
+preplace netloc image_filter_thresho_0_video_out_TUSER 1 6 2 2520 1950 3520
+preplace netloc mdm_1_debug_sys_rst 1 2 2 570 1250 920
+preplace netloc sel_1 1 0 7 NJ 1540 NJ 1540 530J 580 920 420 1490 350 N 350 2420
+preplace netloc xlslice_1_Dout 1 9 1 NJ
+preplace netloc ov7670_controller_0_reset 1 9 1 NJ
+preplace netloc VCC_dout 1 4 4 1470 330 NJ 330 2410 1440 3540
+preplace netloc rst_mig_7series_0_81M_peripheral_aresetn 1 6 2 2300 1960 3630J
+preplace netloc axi_uartlite_0_UART 1 8 2 4040J 1080 NJ
+preplace netloc ov7670_controller_0_sioc 1 9 1 NJ
+preplace netloc top_0_tready_filter_gray_out 1 7 1 3490
+preplace netloc top_0_tready_filter_sobel_out 1 7 1 3470
+preplace netloc xlslice_0_Dout 1 9 1 NJ
+preplace netloc videoin_0_pclk_out 1 4 1 1510
+preplace netloc microblaze_0_Clk 1 2 7 560 1260 950 1300 1500 570 1940 710 2340 1980 3600 850 4000J
+preplace netloc image_filter_0_video_in_TREADY 1 6 1 2620
+preplace netloc image_filter_0_video_out_TVALID 1 6 2 2540 1490 3420
+preplace netloc top_0_tlast_out 1 7 1 3590
+preplace netloc Net 1 9 1 NJ
+preplace netloc clk_wiz_1_locked 1 2 1 N
+preplace netloc microblaze_0_debug 1 3 1 950
+preplace netloc v_axi4s_vid_out_0_overflow 1 8 1 4040
+preplace netloc resend_0_1 1 0 9 NJ 830 NJ 830 NJ 830 NJ 830 1480 340 NJ 340 2350J 2000 NJ 2000 4060J
+preplace netloc ov7670_controller_0_pwdn 1 9 1 NJ
+preplace netloc top_0_tready_filter_threshold_out 1 7 1 3460
+preplace netloc axi_vdma_0_m_axis_mm2s_tuser 1 6 1 2460
+preplace netloc axi_vdma_0_m_axis_mm2s_tvalid 1 6 1 2390
+preplace netloc videoin_0_data_valid 1 4 1 N
+preplace netloc v_axi4s_vid_out_0_vid_data 1 8 1 4030
+preplace netloc ov7670_controller_0_xclk 1 9 1 NJ
+preplace netloc rst_clk_wiz_1_100M_interconnect_aresetn 1 3 2 930 1040 NJ
+preplace netloc v_axi4s_vid_out_0_locked 1 8 1 4050
+preplace netloc clk_wiz_1_clk_out50 1 2 7 520 1640 940J 1600 NJ 1600 NJ 1600 NJ 1600 NJ 1600 4050J
+preplace netloc v_tc_0_hsync_out 1 7 1 3580
+preplace netloc v_tc_0_vsync_out 1 7 1 3540
+preplace netloc top_0_tready_vdma_out 1 6 2 2380J 1550 3530
+preplace netloc image_filter_thresho_0_video_out_TVALID 1 6 2 2590 -300 3480
+preplace netloc image_filter_1_video_out_TDATA 1 6 2 2550 1500 3450
+preplace netloc top_0_tvalid_out 1 7 1 3550
+preplace netloc v_axi4s_vid_out_0_vtg_ce 1 6 3 2480J 1570 NJ 1570 3990
+preplace netloc axi_vdma_0_m_axis_mm2s_tkeep 1 6 1 2470
+preplace netloc mig_7series_0_ui_clk 1 5 4 1900 1860 2390 1990 NJ 1990 4010
+preplace netloc href_1 1 0 4 NJ 630 NJ 630 NJ 630 NJ
+preplace netloc v_axi4s_vid_out_0_vid_hsync 1 8 2 4000J 510 NJ
+preplace netloc vsync_1 1 0 4 NJ 610 NJ 610 NJ 610 NJ
+preplace netloc v_axi4s_vid_out_0_vid_vsync 1 8 2 4010J 530 NJ
+preplace netloc image_filter_1_video_out_TLAST 1 6 2 2560 1510 3440
+preplace netloc ov7670_controller_0_config_finished 1 9 1 NJ
+preplace netloc microblaze_0_M_AXI_DC 1 4 3 1490 1230 1880J 1340 2330J
+preplace netloc axi_vdma_0_m_axis_mm2s_tlast 1 6 1 2430
+preplace netloc v_tc_0_vblank_out 1 7 1 3560
+preplace netloc clk_wiz_1_clk_out25 1 2 6 550 940 NJ 940 NJ 940 1920J 1070 2400 1450 3580J
+preplace netloc pclk_1 1 0 4 NJ 590 NJ 590 NJ 590 NJ
+preplace netloc clk_wiz_1_clk_out200 1 2 6 520 920 NJ 920 NJ 920 1910J 1330 2310J 1970 3620J
+preplace netloc v_axi4s_vid_out_0_underflow 1 8 1 4020
+preplace netloc reset_1 1 1 7 320 1260 540 1460 NJ 1460 NJ 1460 1880J 1590 NJ 1590 3540J
+preplace netloc v_axi4s_vid_out_0_status 1 8 1 4010
+preplace netloc reset_2 1 0 3 10 1580 NJ 1580 NJ
+preplace netloc image_filter_0_video_out_TLAST 1 6 2 2490 1560 3430
+preplace netloc rst_clk_wiz_1_100M_peripheral_aresetn 1 3 5 N 1400 1520 930 1930 1080 2440 1520 3590J
+levelinfo -pg 1 -10 170 420 750 1230 1720 2120 3170 3810 4200 4330 -top -310 -bot 2050
+",
+}
+{
+   da_axi4_cnt: "5",
+   da_board_cnt: "5",
+   da_clkrst_cnt: "27",
+   da_mb_cnt: "1",
+}
