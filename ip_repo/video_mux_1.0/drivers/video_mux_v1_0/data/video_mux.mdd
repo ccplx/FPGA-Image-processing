@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER video_mux
+	OPTION supported_peripherals = (video_mux);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = video_mux;
+END DRIVER
