@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# updatemem v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# 
+# Start of session at: Fri May  4 15:30:59 2018
+# Process ID: 5876
+# Current directory: C:/Users/Chris/Documents/ece448/project_25/project_25
+# Command line: updatemem.exe -mode batch -source C:/Xilinx/SDK/2018.1/scripts/updatemem/main.tcl -notrace -tclargs -meminfo C:/Users/Chris/Documents/ece448/project_25/project_25/project_25.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.mmi -data C:/Xilinx/SDK/2018.1/data/embeddedsw/lib/microblaze/mb_bootloop_le.elf -proc design_1_i/microblaze_0 -bit C:/Users/Chris/Documents/ece448/project_25/project_25/project_25.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit -out C:/Users/Chris/Documents/ece448/project_25/project_25/project_25.sdk/design_1_wrapper_hw_platform_0/download.bit -force
+# Log file: C:/Users/Chris/Documents/ece448/project_25/project_25/updatemem.log
+# Journal file: C:/Users/Chris/Documents/ece448/project_25/project_25\updatemem.jou
+#-----------------------------------------------------------
+source C:/Xilinx/SDK/2018.1/scripts/updatemem/main.tcl -notrace
